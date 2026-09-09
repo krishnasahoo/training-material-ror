@@ -1,0 +1,5 @@
+1.Define a class named Book.
+2.Add a method inside Book named read that returns "Reading a great book!".
+3.Instantiate two separate objects from Book named ruby_book and rails_book.
+4.Call the read method on ruby_book and print its result.
+5.Print the .object_id of both books to prove to yourself that they are distinct objects in memory.

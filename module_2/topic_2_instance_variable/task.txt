@@ -1,0 +1,5 @@
+Create a class named BankAccount.
+Inside initialize, accept an owner name and an initial balance. Assign both to instance variables (@owner and @balance).
+Add attr_reader for both :owner and :balance so their values can be read outside the class.
+Add a method deposit(amount) that increases @balance by amount.
+Create an instance of BankAccount for "Charlie" with $100, deposit $50, and print their updated balance using the reader method.

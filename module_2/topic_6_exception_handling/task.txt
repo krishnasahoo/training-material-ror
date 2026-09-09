@@ -1,0 +1,5 @@
+Write a method named read_file_content(file_path) that attempts to read a file using File.read(file_path).
+Wrap the operation in a rescue block to trap Errno::ENOENT (the error raised when a file does not exist).
+If the file is missing, catch the error and return "Error: File '#{file_path}' was not found.".
+Add an ensure block that prints "File check complete.".
+Test the method with a non-existent file name like "missing_data.txt".

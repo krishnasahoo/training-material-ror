@@ -1,0 +1,5 @@
+Create a class named Car.
+Add an initialize constructor that takes make, model, and optional fuel_level (defaulting to 100). Assign them to instance variables.
+Write a public method drive(distance) that reduces @fuel_level by 1 for every 5 miles driven.
+Write a private method low_fuel? that returns true if @fuel_level drops below 15.
+Call drive enough times to trigger a warning message printed inside drive when low_fuel? returns true.

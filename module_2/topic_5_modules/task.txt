@@ -1,0 +1,5 @@
+Define a module named Swappable.
+Inside Swappable, create a method swap_status that toggles an @active instance variable between true and false, returning "Status is now: #{active}".
+Create two unrelated classes: UserAccount and Subscription.
+Include Swappable in both classes. Give each class an initialize method setting @active = false and an attr_reader :active.
+Instantiate one object from each class, call swap_status on both, and verify that both objects can toggle status.

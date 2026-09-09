@@ -1,0 +1,5 @@
+
+Create a parent class named Vehicle with an initialize method accepting brand and speed, and a method drive that returns "Driving at {speed} mph".
+Create a child class ElectricCar that inherits from Vehicle.
+Give ElectricCar an additional instance variable @battery_capacity inside initialize (use super to handle brand and speed).
+Override the drive method in ElectricCar so that it calls super to get the original driving message and appends " (Zero emissions!)".
